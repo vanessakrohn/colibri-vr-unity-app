@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7700524290496635738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8381946f304f67144bb5f77f83759461, type: 3}
+  m_Name: Instant Meshes - Settings
+  m_EditorClassIdentifier: 
+  foldout: 1
+  exePath: C:\Users\GamesStudio\Desktop\Vanessa Project\Instant Meshes.exe
+--- !u!114 &-6630527214376859720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ff46e3c890844d478fdc5a09a6b8474, type: 3}
+  m_Name: COLMAP 3.6 - Settings
+  m_EditorClassIdentifier: 
+  foldout: 1
+  exePath: C:\Users\GamesStudio\Desktop\Vanessa Project\COLMAP\COLMAP.bat
+--- !u!114 &-415957003546553318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00261bf152d8f6844a38f8607fbee805, type: 3}
+  m_Name: Blender 2.8 - Settings
+  m_EditorClassIdentifier: 
+  foldout: 1
+  exePath: C:\Users\GamesStudio\Desktop\Vanessa Project\Blender\blender.exe
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfd535b891619504ebad253b044b5a6b, type: 3}
+  m_Name: COLIBRIVRSettings
+  m_EditorClassIdentifier: 
+  COLMAPSettings: {fileID: -6630527214376859720}
+  BlenderSettings: {fileID: -415957003546553318}
+  InstantMeshesSettings: {fileID: -7700524290496635738}
+  previewMaxResolution: 512

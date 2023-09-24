@@ -1,0 +1,5 @@
+# Processing information file
+COLIBRIVR.Processing.ColorTextureArray-ColorTextureArray
+COLIBRIVR.Processing.DepthTextureArray-DepthMapsTextureArray
+COLIBRIVR.Processing.GlobalMeshEF-GlobalMesh
+# These assets were successfully bundled.
